@@ -8,7 +8,7 @@ function getRandom (lower, upper) {
     
     const err = new Error(`The value provided to "upper" was not greater than the value povided to "lower".`)
     console.error(err);
-    return err; //or replace this statement with whatever other error handling you need for your use case: e.g. provide user with an error message
+    throw err; //or do whatever is best for your use case: e.g. provide user with an error message
     
   } else if (lowNumber && highNumber || lowNumber === 0 && highNumber || lowNumber && highNumber === 0) {  //allow for all possible combinations of negative and 0 values
     
@@ -20,7 +20,7 @@ function getRandom (lower, upper) {
     
     const err = new Error(` One of the arguments was not a number.`)
     console.error(err)
-    return err; //or replace this statement with whatever other error handling you need for your use case: e.g. provide user with an error message
+    throw err; // or do whatever is best for your use case
     
     
   }
