@@ -11,5 +11,8 @@ provided to the lower param
 randomNumber('boof', 6) // returns an error: one of the values provided was not a number
 randomNumber('', '') // same as above
 
+The js file is packaged with a simple HTML file for testing in the browser with the dev console, but feel free to take just
+the js file or copy and paste the function to use in your program.
+
 
 
