@@ -1,4 +1,4 @@
-function getRandom (lower, upper) {
+function randomNumber (lower, upper) {
   "use strict";
   
   const lowNumber = parseInt(lower);
