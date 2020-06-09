@@ -1,7 +1,7 @@
 # randomNumber
 A utility function that receives programmer or user input and returns a random integer between any
 two integers (inclusive of lower and upper bound) provided as arguments to the function. Throws errors
-if arguments/user input was not a not a number/no input, or if the lower param was given a number greater
+if arguments/user input was not a number/no input, or if the lower param was given a number greater
 than the upper param.
 
 randomNumber(lower, uper); // returns any number between or including the numbers passed as arugments
