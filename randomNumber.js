@@ -1,3 +1,13 @@
+/**
+ * Generates a random number between any two numbers (inclusive)
+ *
+ * @param {number} lower - the lower bound of the random number range
+ * @param {number]} upper - the upper bound of the random number range
+ * @returns {number} a number between or including the upper and lower bounds
+ * @throws Will throw an error if either argument is not a number, or the lower argument is greater than the upper argument.
+ */
+
+
 function randomNumber (lower, upper) {
   "use strict";
   
